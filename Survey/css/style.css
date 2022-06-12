@@ -1,0 +1,84 @@
+h1{
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+}
+
+h2{
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+
+dl {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+dt {
+    width: 30%;
+    margin-bottom: 10px;
+    text-align: right;
+  }
+  
+dd {
+    width: 70%;
+    margin-inline-start: 0;
+    margin-bottom: 10px;
+  }
+
+input[name="name"]{
+      width: 500px;
+  }
+
+input[name="style"]{
+    margin: 0 0 0 50px;
+}
+
+input[name="number"]{
+    margin: 0 0 0 50px;
+}
+
+input[type="submit"]{
+    height: 35px;
+    width: 70px;
+    font-size: 20px;
+
+}
+
+a{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.back{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.back:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+table{
+    margin: auto;
+}
+
+th{
+    background-color: blue;
+    color: white;
+}
+
+td{
+    text-align: center;
+}
